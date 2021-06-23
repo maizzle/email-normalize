@@ -1,0 +1,44 @@
+{
+    "name": "@maizzle/resets",
+    "version": "0.0.0",
+    "description": "CSS resets for default styles in email clients",
+    "license": "MIT",
+    "repository": "maizzle/email-normalize",
+    "bugs": "https://github.com/maizzle/email-normalize/issues",
+    "contributors": [
+        {
+            "name": "Jay Oram",
+            "url": "https://github.com/JayOram"
+        },
+        {
+            "name": "Cosmin Popovici",
+            "url": "https://github.com/cossssmin"
+        }
+    ],
+    "scripts": {
+        "style": "stylelint email-normalize.css"
+    },
+    "engines": {
+        "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+    },
+    "main": "email-normalize.css",
+    "style": "email-normalize.css",
+    "files": [
+        "email-normalize.css"
+    ],
+    "keywords": [
+        "normalize",
+        "css",
+        "reset",
+        "email",
+        "html-emails",
+        "style"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "devDependencies": {
+        "np": "*",
+        "stylelint": "^13.0.0"
+    }
+}
