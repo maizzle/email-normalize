@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="media/logo.svg" alt="email-normalize">
+    <img src="media/logo.svg" alt="email-normalize" width="400">
     <br>
     <br>
 </div>
