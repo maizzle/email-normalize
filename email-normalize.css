@@ -46,13 +46,6 @@ span.MsoHyperlinkFollowed {
   mso-style-priority: 99 !important;
 }
 
-/* Normalize links in Outlook app iOS/Android */
-
-body[data-outlook-cycle] a {
-  color: inherit !important;
-  text-decoration: none !important;
-}
-
 /* Normalize links in Apple Mail / iOS Mail */
 
 a[x-apple-data-detectors] {
