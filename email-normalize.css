@@ -1,4 +1,16 @@
 /*
+ * Reset body
+ *
+ * Apple Mail, iOS Mail plus many more have preset margin and padding for
+ * the email body - this normalizes it so rendering is consistent.
+ */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*
  * Fix for Outlook on Windows
  *
  * `border-collapse` removes spaces between tables caused by border size
