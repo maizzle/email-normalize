@@ -2,7 +2,7 @@
  * Reset body
  *
  * Apple Mail, iOS Mail plus many more have preset margin and padding for
- * the email body - this normalizes it so rendering is consistent.
+ * the HTML <body> - this normalizes it so rendering is consistent.
  */
 
 body {
@@ -11,7 +11,7 @@ body {
 }
 
 /*
- * Fix for Outlook on Windows
+ * Tables in Outlook on Windows
  *
  * `border-collapse` removes spaces between tables caused by border size
  * `mso-table-[l/r]space` ensures no left and right space is added
@@ -50,7 +50,7 @@ html[dir] h3 {
   font-size: 1.17em;
 }
 
-/* Fix color of links and visited links in Outlook */
+/* Fix color of links, including visited, in Outlook */
 
 span.MsoHyperlink,
 span.MsoHyperlinkFollowed {
@@ -81,6 +81,6 @@ u + #body a {
 
 /* Center email on Android 4.4 */
 
- div[style*="margin: 16px 0"] {
+div[style*="margin: 16px 0"] {
   margin: 0!important;
 }
