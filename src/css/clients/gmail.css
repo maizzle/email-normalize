@@ -7,3 +7,9 @@ u + #body a {
   font-weight: inherit;
   line-height: inherit;
 }
+
+/* Hide the download button on large images */
+
+u ~ div img + div > div {
+  display: none;
+}
