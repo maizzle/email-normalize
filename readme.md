@@ -6,8 +6,6 @@
 
 # About
 
-**This is a work in progress, please check back soon! ✌**
-
 > CSS resets for default styles in email clients
 
 Like browsers, email clients use default styles for HTML.
@@ -21,6 +19,16 @@ _Unlike_ browsers, there is little to no standardization, and email developers n
 ```sh
 npm install @maizzle/email-normalize
 ```
+
+###### Download
+
+- [Normal](https://cdn.jsdelivr.net/npm/@maizzle/email-normalize@1.0.0/email-normalize.css)
+- [Minified](https://cdn.jsdelivr.net/npm/@maizzle/email-normalize@1.0.0/email-normalize.min.css)
+
+###### CDN
+
+- [jsdelivr](https://www.jsdelivr.com/package/npm/@maizzle/email-normalize)
+- [unpkg](https://unpkg.com/@maizzle/email-normalize)
 
 ## Usage
 
