@@ -17,7 +17,7 @@
     ],
     "scripts": {
         "build": "postcss src/css/index.css -o email-normalize.css",
-        "style": "stylelint email-normalize.css"
+        "style": "stylelint src/css/**/*.css"
     },
     "engines": {
         "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
