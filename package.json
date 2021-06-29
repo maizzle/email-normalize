@@ -17,7 +17,8 @@
     ],
     "scripts": {
         "build": "npm run style && postcss src/css/index.css -o email-normalize.css",
-        "style": "stylelint src/css/**/*.css"
+        "style": "stylelint src/css/**/*.css",
+        "release": "np"
     },
     "engines": {
         "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
