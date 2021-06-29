@@ -18,6 +18,7 @@
     "scripts": {
         "build": "npm run style && postcss src/css/index.css -o email-normalize.css",
         "style": "stylelint src/css/**/*.css",
+        "test": "ava",
         "release": "np"
     },
     "engines": {
@@ -37,6 +38,7 @@
         "access": "public"
     },
     "devDependencies": {
+        "ava": "^3.15.0",
         "np": "*",
         "postcss": "^8.3.5",
         "postcss-cli": "^8.3.1",
