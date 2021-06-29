@@ -1,4 +1,7 @@
-/* Normalize links in Apple Mail / iOS Mail */
+/**
+ * Normalize triggered links, such as dates or phone numbers,
+ * in Apple Mail / iOS Mail
+ */
 
 a[x-apple-data-detectors] {
   color: inherit !important;
