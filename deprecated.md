@@ -115,3 +115,28 @@ body[data-outlook-cycle] a {
 ```
 
 This was used to reset styling of auto-linked text in the Outlook apps (iOS and Android), but an update rolling out since June 14<sup>th</sup> 2021 has rendered this useless.
+
+### .im
+
+Deprecated: June 2021
+
+Prevented Gmail from changing the text color in conversation threads.
+
+```css
+.im {
+  color: inherit !important;
+}
+```
+
+### .a6S
+
+Deprecated: June 2021
+
+Prevented Gmail from displaying a download button on large, non-linked images.
+
+```css
+.a6S {
+  display: none !important;
+  opacity: 0.01 !important;
+}
+```
