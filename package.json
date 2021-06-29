@@ -1,6 +1,6 @@
 {
     "name": "@maizzle/email-normalize",
-    "version": "0.0.1-0",
+    "version": "1.0.0",
     "description": "CSS resets for default styles in email clients",
     "license": "MIT",
     "repository": "maizzle/email-normalize",
