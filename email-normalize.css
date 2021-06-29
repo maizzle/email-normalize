@@ -11,25 +11,13 @@ body {
 }
 
 /*
- * Tables in Outlook on Windows
- *
- * `border-collapse` removes spaces between tables caused by border size
- * `mso-table-[l/r]space` ensures no left and right space is added
- * next to tables (Outlook specific CSS attributes).
- */
-
-table {
-  border-collapse: collapse;
-  mso-table-lspace: 0;
-  mso-table-rspace: 0;
-}
-
-/*
  * Normalize headings
  *
- * Older versions of Samsung Mail reset the font-size on <h*> elements
- * Mail.ru resets font-size on <h1> & <h3>
- * Outlook.com resets margin on <h3>
+ * Values used are browser CSS defaults.
+ *
+ * Samsung Mail: older versions reset the font-size on <h*> elements
+ * Mail.ru:      resets font-size on <h1> & <h3>
+ * Outlook.com:  resets margin on <h3>
  */
 
 h1 {
@@ -50,23 +38,21 @@ html[dir] h3 {
   font-size: 1.17em;
 }
 
-/* Fix color of links, including visited, in Outlook */
+/* Center email on Android 4.4 */
 
-span.MsoHyperlink,
-span.MsoHyperlinkFollowed {
-  color: inherit !important;
-  mso-style-priority: 99 !important;
+div[style*="margin: 16px 0"] {
+  margin: 0 !important;
 }
 
 /* Normalize links in Apple Mail / iOS Mail */
 
 a[x-apple-data-detectors] {
-  color: inherit!important;
-  text-decoration: none!important;
-  font-size: inherit!important;
-  font-family: inherit!important;
-  font-weight: inherit!important;
-  line-height: inherit!important;
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
 }
 
 /* Normalize links in Gmail */
@@ -79,8 +65,24 @@ u + #body a {
   line-height: inherit;
 }
 
-/* Center email on Android 4.4 */
+/*
+ * Tables in Outlook on Windows
+ *
+ * `border-collapse` removes spaces between tables caused by border size
+ * `mso-table-[l/r]space` ensures no left and right space is added
+ * next to tables (Outlook specific CSS attributes).
+ */
 
-div[style*="margin: 16px 0"] {
-  margin: 0!important;
+table {
+  border-collapse: collapse;
+  mso-table-lspace: 0;
+  mso-table-rspace: 0;
+}
+
+/* Fix color of links, including visited, in Outlook */
+
+span.MsoHyperlink,
+span.MsoHyperlinkFollowed {
+  color: inherit !important;
+  mso-style-priority: 99 !important;
 }

@@ -16,6 +16,7 @@
         }
     ],
     "scripts": {
+        "build": "postcss src/css/index.css -o email-normalize.css",
         "style": "stylelint email-normalize.css"
     },
     "engines": {
@@ -38,7 +39,11 @@
         "access": "public"
     },
     "devDependencies": {
+        "cssnano": "^5.0.6",
         "np": "*",
+        "postcss": "^8.3.5",
+        "postcss-cli": "^8.3.1",
+        "postcss-import": "^14.0.2",
         "stylelint": "^13.0.0"
     }
 }

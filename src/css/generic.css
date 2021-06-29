@@ -1,0 +1,39 @@
+/*
+ * Reset body
+ *
+ * Apple Mail, iOS Mail plus many more have preset margin and padding for
+ * the HTML <body> - this normalizes it so rendering is consistent.
+ */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Normalize headings
+ *
+ * Values used are browser CSS defaults.
+ *
+ * Samsung Mail: older versions reset the font-size on <h*> elements
+ * Mail.ru:      resets font-size on <h1> & <h3>
+ * Outlook.com:  resets margin on <h3>
+ */
+
+h1 {
+  margin: 0.67em 0;
+  font-size: 2em;
+}
+
+h2 {
+  margin: 0.83em 0;
+  font-size: 1.5em;
+}
+
+/* `html[dir] h3` increases specificity, to override Outlook.com */
+
+h3,
+html[dir] h3 {
+  margin: 1em 0;
+  font-size: 1.17em;
+}

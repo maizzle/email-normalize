@@ -1,0 +1,21 @@
+/*
+ * Tables in Outlook on Windows
+ *
+ * `border-collapse` removes spaces between tables caused by border size
+ * `mso-table-[l/r]space` ensures no left and right space is added
+ * next to tables (Outlook specific CSS attributes).
+ */
+
+table {
+  border-collapse: collapse;
+  mso-table-lspace: 0;
+  mso-table-rspace: 0;
+}
+
+/* Fix color of links, including visited, in Outlook */
+
+span.MsoHyperlink,
+span.MsoHyperlinkFollowed {
+  color: inherit !important;
+  mso-style-priority: 99 !important;
+}
