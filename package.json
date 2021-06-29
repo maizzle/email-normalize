@@ -39,7 +39,6 @@
         "access": "public"
     },
     "devDependencies": {
-        "cssnano": "^5.0.6",
         "np": "*",
         "postcss": "^8.3.5",
         "postcss-cli": "^8.3.1",
