@@ -16,7 +16,7 @@
         }
     ],
     "scripts": {
-        "build": "postcss src/css/index.css -o email-normalize.css",
+        "build": "npm run style && postcss src/css/index.css -o email-normalize.css",
         "style": "stylelint src/css/**/*.css"
     },
     "engines": {
