@@ -140,3 +140,22 @@ Prevented Gmail from displaying a download button on large, non-linked images.
   opacity: 0.01 !important;
 }
 ```
+
+### .aBn
+
+Deprecated: June 2021
+
+Prevented Gmail from auto-styling triggered links, like dates or phone numbers.
+
+```css
+.aBn {
+  border-bottom: 0 !important;
+  cursor: default !important;
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+```
