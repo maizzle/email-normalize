@@ -44,7 +44,10 @@ div[style*="margin: 16px 0"] {
   margin: 0 !important;
 }
 
-/* Normalize links in Apple Mail / iOS Mail */
+/**
+ * Normalize triggered links, such as dates or phone numbers,
+ * in Apple Mail / iOS Mail
+ */
 
 a[x-apple-data-detectors] {
   color: inherit !important;
@@ -63,6 +66,12 @@ u + #body a {
   font-size: inherit;
   font-weight: inherit;
   line-height: inherit;
+}
+
+/* Hide the download button on large images */
+
+u ~ div img + div > div {
+  display: none;
 }
 
 /*
