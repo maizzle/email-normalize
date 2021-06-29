@@ -1,4 +1,4 @@
-const data = {
+module.exports = {
   android: {
     '4.4': [
       {
@@ -110,5 +110,3 @@ const data = {
     ]
   }
 }
-
-export default data
