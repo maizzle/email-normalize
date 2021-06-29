@@ -25,6 +25,10 @@
         "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
     },
     "main": "src/index.js",
+    "files": [
+        "src",
+        "email-normalize.css"
+    ],
     "style": "email-normalize.css",
     "keywords": [
         "normalize",
